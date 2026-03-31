@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Airbnb</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        @keyframes view_on {
+            0% {
+                background: rgba(0, 0, 0, 0.5);
+            }
+
+            50% {
+                background: #FF5A5F;
+            }
+
+            100% {
+                background: rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background: #ebe4e4;
+            min-width: 320px;
+        }
+
+        #wrap {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        .btn {
+            position: fixed;
+            right: 10.5%;
+            bottom: 0;
+            transform: translateX(60px);
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        .btn a.view {
+            background: rgba(0, 0, 0, 0.5);
+            font-size: 15px;
+            animation: view_on 3s infinite;
+        }
+
+        .btn a.gotop {
+            background: rgba(0, 0, 0, 1);
+            font-size: 20px;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <a name="top"></a>
+    <div id="wrap">
+        <div class="btn"><a
+                href="https://www.figma.com/proto/hJkCmr9rAcRj9Ya0fOS88j/%EC%97%90%EC%96%B4%EB%B9%84%EC%95%A4%EB%B9%84--%ED%97%88%EC%88%98%EA%B2%BD-%ED%97%88%EC%9D%B8%EC%98%81-%ED%99%8D%EB%A7%88%EB%A1%9C-?page-id=991%3A10122&node-id=1114-10102&viewport=1700%2C1134%2C0.13&t=uLn5evJh1BKdT2PF-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1114%3A10102"
+                class="view">프로토타입</a><a href="#top" class="gotop">↑</a></div>
+
+        <img src="images/bnb1.jpg" alt="#">
+        <img src="images/bnb2.jpg" alt="#">
+        <img src="images/bnb3.jpg" alt="#">
+        <img src="images/bnb4.jpg" alt="#">
+        <img src="images/bnb5.jpg" alt="#">
+        <img src="images/bnb6.jpg" alt="#">
+        <img src="images/bnb7.jpg" alt="#">
+        <img src="images/bnb8.jpg" alt="#">
+        <img src="images/bnb9.jpg" alt="#">
+        <img src="images/bnb10.jpg" alt="#">
+        <img src="images/bnb11.jpg" alt="#">
+        <img src="images/bnb12.jpg" alt="#">
+        <img src="images/bnb13.jpg" alt="#">
+        <img src="images/bnb14.jpg" alt="#">
+    </div>
+</body>
+
+</html>
